@@ -19,7 +19,7 @@ def swap_l(to_sort, ix):
 def bubble_sort(to_sort):
 	n = len(to_sort)
 	if n <= 1:
-		return to_sort
+		return
 	swapped = True
 	for i in range(n):
 		swapped = False
