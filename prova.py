@@ -2,8 +2,10 @@
 
 def main():
 	res = bubble_sort([6, 3, 5, 2, 7, 1])
-	# res = bubble_sort([])
-	# res = bubble_sort([5])
+	print('Result: ' + str(res))
+	res = bubble_sort([])
+	print('Result: ' + str(res))
+	res = bubble_sort([5])
 	print('Result: ' + str(res))
 
 def swap_l(to_sort, ix):
