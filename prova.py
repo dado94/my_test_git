@@ -21,12 +21,13 @@ def bubble_sort(to_sort):
 	if n <= 1:
 		return to_sort
 	swapped = True
-	while swapped:
+	for i in range(n):
 		swapped = False
-		for ix in range(n - 1):
-			if to_sort[ix] > to_sort[ix + 1]:
-				swap_l(to_sort, ix)
-				swapped = True				
+		for j in range(n - i - 1):
+			if to_sort[j] > to_sort[j + 1]:
+				swap_l(to_sort, j)
+				swapped = True
+        
 main()
 
 
