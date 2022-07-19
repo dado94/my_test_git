@@ -17,12 +17,11 @@ def bubble_sort(to_sort):
 	if len(to_sort) <= 1:
 		return to_sort
 	swapped = True
-	while swapped:
+	for i in range(len(to_sort)):
 		swapped = False
-		for ix in range(len(to_sort) - 1):
-			if to_sort[ix] > to_sort[ix + 1]:
-				swap_l(to_sort, ix)
-				
+		for j in range(len(to_sort) - i - 1):
+			if to_sort[j] > to_sort[j + 1]:
+				swap_l(to_sort, j)
 				swapped = True				
 	return to_sort
 
