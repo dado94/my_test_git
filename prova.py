@@ -2,12 +2,15 @@
 
 def main():
 	my_array = [6, 3, 5, 2, 7, 1]
+	print('Input: ' + str(my_array))
 	bubble_sort(my_array)
 	print('Result: ' + str(my_array))
 	my_array = []
+	print('Input: ' + str(my_array))
 	bubble_sort(my_array)
 	print('Result: ' + str(my_array))
 	my_array = [6]
+	print('Input: ' + str(my_array))
 	bubble_sort(my_array)
 	print('Result: ' + str(my_array))
 
@@ -27,8 +30,5 @@ def bubble_sort(to_sort):
 			if to_sort[j] > to_sort[j + 1]:
 				swap_l(to_sort, j)
 				swapped = True
-        
+
 main()
-
-
-

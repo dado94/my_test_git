@@ -1,0 +1,25 @@
+* init
+git init, crea il repository nella cartella corrente
+
+* remote
+git remote add origin https://github.com/dado94/my_test_git.git
+aggiunge il repository remoto e gli da alias "origin"
+
+* git push -u origin master
+per pushare sull'host origin, ramo master
+
+* pull
+git pull origin master, nel caso si sia gia' su un branch (git checkout) basta git pull
+
+* revert
+git revert 2646db3
+Il numero e' l'id della commit a cui revertare, ci si deve trovare sul branch da revertare. Il revert riporta allo stato della commit indicata il repository.
+
+* status
+git status, stampa i file che possono essere aggiunti al repository
+
+* add
+git add <nome_file>, deve essere eseguito sul ramo su cui committare
+
+* commit
+git commit -m <messaggio>
