@@ -23,3 +23,7 @@ git add <nome_file>, deve essere eseguito sul ramo su cui committare
 
 * commit
 git commit -m <messaggio>
+
+* master
+git branch -m master
+Crea un nuovo branch locale, da pushare
